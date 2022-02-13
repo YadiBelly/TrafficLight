@@ -1,12 +1,46 @@
 
-/* 
+.trafficLight{
+    height: 580px;
+    width: 250px;
+    background-color: black;
+    margin: auto;
+    padding: 25px;
+}
+.redNormal{
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red;
+    margin-bottom: 5px;
+}
+.yellowNormal{
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
+    margin: auto;
+    background-color: yellow;
+    margin-bottom: 5px;
+}
+.greenNormal{
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
+    margin: auto;
+    background-color: green;
+    margin-bottom: 5px;
+}
+.redLight{
+    box-shadow: 0px 0px 20px 5px;
+    background-color: coral;
+}
+.yellowLight{
+    box-shadow: 0px 0px 20px 5px;
+    background-color: lightgoldenrodyellow;
+}
+.greenLight{
+    box-shadow: 0px 0px 20px 5px;
+    background-color: lightgreen;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
